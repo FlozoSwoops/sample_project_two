@@ -1,2 +1,5 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+{{#each companies}}
+    <div>
+        {{this.name}} - {{this.country}}
+    </div>
+    {{/each}}
